@@ -10,18 +10,11 @@ import React from 'react';
 import HomeScreen from "./screen/homeScreen"
 
 import {
-   StatusBar,
-  StyleSheet,
- 
+    StyleSheet
 } from 'react-native';
 
-
-
-
-
 const App = () => {
-  
-
+ 
   return (
     <>
       
@@ -35,9 +28,10 @@ const styles = StyleSheet.create({
     marginTop: 32,
     paddingHorizontal: 24,
   },
-  sectionTitle: {
+  aghyoul: {
     fontSize: 24,
     fontWeight: '600',
+    color:'#eff'
   },
   sectionDescription: {
     marginTop: 8,
